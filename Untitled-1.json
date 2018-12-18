@@ -1,0 +1,71 @@
+{
+  "availabilityState": "Normal",
+  "clientAffinityEnabled": true,
+  "clientCertEnabled": false,
+  "cloningInfo": null,
+  "containerSize": 0,
+  "dailyMemoryTimeQuota": 0,
+  "defaultHostName": "cardsbot.azurewebsites.net",
+  "enabled": true,
+  "enabledHostNames": [
+    "cardsbot.azurewebsites.net",
+    "cardsbot.scm.azurewebsites.net"
+  ],
+  "ftpPublishingUrl": "ftp://waws-prod-blu-103.ftp.azurewebsites.windows.net/site/wwwroot",
+  "hostNameSslStates": [
+    {
+      "hostType": "Standard",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "cardsbot.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    },
+    {
+      "hostType": "Repository",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "cardsbot.scm.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    }
+  ],
+  "hostNames": [
+    "cardsbot.azurewebsites.net"
+  ],
+  "hostNamesDisabled": false,
+  "hostingEnvironmentProfile": null,
+  "httpsOnly": false,
+  "hyperV": false,
+  "id": "/subscriptions/e40bfd8a-fd0c-403b-8fa9-f845a0312441/resourceGroups/cardsbot/providers/Microsoft.Web/sites/cardsbot",
+  "identity": null,
+  "isDefaultContainer": null,
+  "isXenon": false,
+  "kind": "app,linux",
+  "lastModifiedTimeUtc": "2018-12-18T19:20:04.736666",
+  "location": "East US",
+  "maxNumberOfWorkers": null,
+  "name": "cardsbot",
+  "outboundIpAddresses": "40.121.32.232,40.114.29.199,104.211.16.51,40.121.36.86,40.121.38.194",
+  "possibleOutboundIpAddresses": "40.121.32.232,40.114.29.199,104.211.16.51,40.121.36.86,40.121.38.194,40.121.35.60,40.121.44.194,40.121.36.231",
+  "repositorySiteName": "cardsbot",
+  "reserved": true,
+  "resourceGroup": "cardsbot",
+  "scmSiteAlsoStopped": false,
+  "serverFarmId": "/subscriptions/e40bfd8a-fd0c-403b-8fa9-f845a0312441/resourceGroups/cardsbot/providers/Microsoft.Web/serverfarms/cardsbot",
+  "siteConfig": null,
+  "slotSwapStatus": null,
+  "state": "Running",
+  "suspendedTill": null,
+  "tags": null,
+  "targetSwapSlot": null,
+  "trafficManagerHostNames": null,
+  "type": "Microsoft.Web/sites",
+  "usageState": "Normal"
+}

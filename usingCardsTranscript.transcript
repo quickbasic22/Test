@@ -1,0 +1,2369 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "1",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "b2b15252-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:06-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-12-14T20:49:06.549Z",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "b2b1a070-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:06-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-12-14T20:49:06.551Z",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:49:07.261Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "Welcome to CardBot User. This bot will show you different types of Rich Cards.\n                                           Please type anything to get started.",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "b2b1a070-ffe1-11e8-8961-b37f07f9bce9",
+    "id": "b31df6d0-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:07-05:00"
+  },
+  {
+    "type": "message",
+    "text": "hello",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:49:21.427Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "bb8f8630-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:21-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:49:21.726Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "bb8f8630-ffe1-11e8-8961-b37f07f9bce9",
+    "id": "bbbd25e0-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:21-05:00"
+  },
+  {
+    "type": "message",
+    "text": "Adaptive card",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:49:32.438Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "c21fab60-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:32-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:49:32.634Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {
+          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+          "version": "1.0",
+          "type": "AdaptiveCard",
+          "speak": "Your flight is confirmed for you and 3 other passengers from San Francisco to Amsterdam on Friday, October 10 8:30 AM",
+          "body": [
+            {
+              "type": "TextBlock",
+              "text": "Passengers",
+              "weight": "bolder",
+              "isSubtle": false
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sarah Hum",
+              "separator": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Jeremy Goldberg",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Evan Litvak",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "2 Stops",
+              "weight": "bolder",
+              "spacing": "medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, October 10 8:30 AM",
+              "weight": "bolder",
+              "spacing": "none"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": true,
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "San Francisco",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "SFO",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": " "
+                    },
+                    {
+                      "type": "Image",
+                      "url": "http://adaptivecards.io/content/airplane.png",
+                      "size": "small",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "Amsterdam",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "AMS",
+                      "spacing": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "text": "Non-Stop",
+              "weight": "bolder",
+              "spacing": "medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, October 18 9:50 PM",
+              "weight": "bolder",
+              "spacing": "none"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": true,
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Amsterdam",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "AMS",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": " "
+                    },
+                    {
+                      "type": "Image",
+                      "url": "http://adaptivecards.io/content/airplane.png",
+                      "size": "small",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "San Francisco",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "SFO",
+                      "spacing": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "spacing": "medium",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "1",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Total",
+                      "size": "medium",
+                      "isSubtle": true
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "$4,032.54",
+                      "size": "medium",
+                      "weight": "bolder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "c21fab60-ffe1-11e8-8961-b37f07f9bce9",
+    "id": "c23d93a0-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:32-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "c21fab60-ffe1-11e8-8961-b37f07f9bce9",
+    "id": "c2411610-ffe1-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:49:32-05:00",
+    "timestamp": "2018-12-14T20:49:32.657Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "\"\"",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:51:45.218Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "11444a20-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:51:45-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:51:45.229Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "11444a20-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "1145f7d0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:51:45-05:00"
+  },
+  {
+    "type": "message",
+    "text": "Animation card",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:51:50.081Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.6"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "142a5310-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:51:50-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:51:50.104Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.animation",
+        "content": {
+          "title": "Microsoft Bot Framework",
+          "subtitle": "Animation Card",
+          "image": {
+            "url": "https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png"
+          },
+          "media": [
+            {
+              "url": "http://i.giphy.com/Ki55RUbOV5njy.gif"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "142a5310-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "142dd580-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:51:50-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "142a5310-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "142e71c0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:51:50-05:00",
+    "timestamp": "2018-12-14T20:51:50.108Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "a",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:53:03.161Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.8"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "3fb97290-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:03-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:53:03.169Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "3fb97290-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "3fbaab10-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:03-05:00"
+  },
+  {
+    "type": "message",
+    "text": "Audio card",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:53:05.842Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.10"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "41528920-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:05-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:53:05.856Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.audio",
+        "content": {
+          "title": "I am your father",
+          "subtitle": "Star Wars: Episode V - The Empire Strikes Back",
+          "text": "The Empire Strikes Back (also known as Star Wars: Episode V – The Empire Strikes Back) is a 1980 American epic space opera film directed by Irvin Kershner. Leigh Brackett and Lawrence Kasdan wrote the screenplay, with George Lucas writing the film's story and serving as executive producer. The second installment in the original Star Wars trilogy, it was produced by Gary Kurtz for Lucasfilm Ltd. and stars Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, David Prowse, Kenny Baker, Peter Mayhew and Frank Oz.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg"
+          },
+          "media": [
+            {
+              "url": "http://www.wavlist.com/movies/004/father.wav"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Read More",
+              "value": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "41528920-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "4154ac00-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:05-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "41528920-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "4154fa20-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:05-05:00",
+    "timestamp": "2018-12-14T20:53:05.858Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "a",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:53:57.851Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.12"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "60527ab0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:57-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:53:57.868Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "60527ab0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "605512c0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:53:57-05:00"
+  },
+  {
+    "type": "message",
+    "text": "Hero card",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:54:00.315Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.14"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "61ca74b0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:54:00-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:54:00.349Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "BotFramework Hero Card",
+          "subtitle": "Microsoft Bot Framework",
+          "text": "Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Get Started",
+              "value": "https://docs.microsoft.com/bot-framework"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "61ca74b0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "61cfa4d0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:54:00-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "61ca74b0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "61d01a00-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:54:00-05:00",
+    "timestamp": "2018-12-14T20:54:00.352Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "a",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:54:59.023Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.16"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "84c895f0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:54:59-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:54:59.043Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "84c895f0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "84cba330-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:54:59-05:00"
+  },
+  {
+    "type": "message",
+    "text": "Receipt card",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:55:07.385Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.18"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "89c48690-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:07-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:55:07.409Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.receipt",
+        "content": {
+          "title": "John Doe",
+          "facts": [
+            {
+              "key": "Order Number",
+              "value": "1234"
+            },
+            {
+              "key": "Payment Method",
+              "value": "VISA 5555-****"
+            }
+          ],
+          "items": [
+            {
+              "title": "Data Transfer",
+              "image": {
+                "url": "https://github.com/amido/azure-vector-icons/raw/master/renders/traffic-manager.png"
+              },
+              "price": "$ 38.45",
+              "quantity": "368"
+            },
+            {
+              "title": "App Service",
+              "image": {
+                "url": "https://github.com/amido/azure-vector-icons/raw/master/renders/cloud-service.png"
+              },
+              "price": "$ 45.00",
+              "quantity": "720"
+            }
+          ],
+          "total": "$ 90.95",
+          "tax": "$ 7.50",
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "More information",
+              "image": "https://account.windowsazure.com/content/6.10.1.38-.8225.160809-1618/aux-pre/images/offer-icon-freetrial.png",
+              "text": "https://azure.microsoft.com/en-us/pricing/"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "89c48690-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "89c83010-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:07-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "89c48690-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "89c87e30-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:07-05:00",
+    "timestamp": "2018-12-14T20:55:07.411Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "a",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:55:35.425Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.20"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "9a7b1710-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:35-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:55:35.431Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "9a7b1710-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "9a7c0170-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:35-05:00"
+  },
+  {
+    "type": "message",
+    "text": "All cards",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:55:46.474Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.22"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "a11108a0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:46-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:55:46.501Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "attachmentLayout": "carousel",
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {
+          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+          "version": "1.0",
+          "type": "AdaptiveCard",
+          "speak": "Your flight is confirmed for you and 3 other passengers from San Francisco to Amsterdam on Friday, October 10 8:30 AM",
+          "body": [
+            {
+              "type": "TextBlock",
+              "text": "Passengers",
+              "weight": "bolder",
+              "isSubtle": false
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sarah Hum",
+              "separator": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Jeremy Goldberg",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Evan Litvak",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "2 Stops",
+              "weight": "bolder",
+              "spacing": "medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, October 10 8:30 AM",
+              "weight": "bolder",
+              "spacing": "none"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": true,
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "San Francisco",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "SFO",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": " "
+                    },
+                    {
+                      "type": "Image",
+                      "url": "http://adaptivecards.io/content/airplane.png",
+                      "size": "small",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "Amsterdam",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "AMS",
+                      "spacing": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "text": "Non-Stop",
+              "weight": "bolder",
+              "spacing": "medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, October 18 9:50 PM",
+              "weight": "bolder",
+              "spacing": "none"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": true,
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Amsterdam",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "AMS",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": " "
+                    },
+                    {
+                      "type": "Image",
+                      "url": "http://adaptivecards.io/content/airplane.png",
+                      "size": "small",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "San Francisco",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "SFO",
+                      "spacing": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "spacing": "medium",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "1",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Total",
+                      "size": "medium",
+                      "isSubtle": true
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "$4,032.54",
+                      "size": "medium",
+                      "weight": "bolder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "BotFramework Hero Card",
+          "subtitle": "Microsoft Bot Framework",
+          "text": "Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Get Started",
+              "value": "https://docs.microsoft.com/bot-framework"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "BotFramework Thumbnail Card",
+          "subtitle": "Microsoft Bot Framework",
+          "text": "Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Get Started",
+              "value": "https://docs.microsoft.com/bot-framework"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.receipt",
+        "content": {
+          "title": "John Doe",
+          "facts": [
+            {
+              "key": "Order Number",
+              "value": "1234"
+            },
+            {
+              "key": "Payment Method",
+              "value": "VISA 5555-****"
+            }
+          ],
+          "items": [
+            {
+              "title": "Data Transfer",
+              "image": {
+                "url": "https://github.com/amido/azure-vector-icons/raw/master/renders/traffic-manager.png"
+              },
+              "price": "$ 38.45",
+              "quantity": "368"
+            },
+            {
+              "title": "App Service",
+              "image": {
+                "url": "https://github.com/amido/azure-vector-icons/raw/master/renders/cloud-service.png"
+              },
+              "price": "$ 45.00",
+              "quantity": "720"
+            }
+          ],
+          "total": "$ 90.95",
+          "tax": "$ 7.50",
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "More information",
+              "image": "https://account.windowsazure.com/content/6.10.1.38-.8225.160809-1618/aux-pre/images/offer-icon-freetrial.png",
+              "text": "https://azure.microsoft.com/en-us/pricing/"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.signin",
+        "content": {
+          "text": "BotFramework Sign-in Card",
+          "buttons": [
+            {
+              "type": "signin",
+              "title": "Sign-in",
+              "value": "https://login.microsoftonline.com/"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.animation",
+        "content": {
+          "title": "Microsoft Bot Framework",
+          "subtitle": "Animation Card",
+          "image": {
+            "url": "https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png"
+          },
+          "media": [
+            {
+              "url": "http://i.giphy.com/Ki55RUbOV5njy.gif"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.video",
+        "content": {
+          "title": "Big Buck Bunny",
+          "subtitle": "by the Blender Institute",
+          "text": "Big Buck Bunny (code-named Peach) is a short computer-animated comedy film by the Blender Institute, part of the Blender Foundation. Like the foundation's previous film Elephants Dream, the film was made using Blender, a free software application for animation made by the same foundation. It was released as an open-source film under Creative Commons License Attribution 3.0.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/220px-Big_buck_bunny_poster_big.jpg"
+          },
+          "media": [
+            {
+              "url": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Learn More",
+              "value": "https://peach.blender.org/"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.audio",
+        "content": {
+          "title": "I am your father",
+          "subtitle": "Star Wars: Episode V - The Empire Strikes Back",
+          "text": "The Empire Strikes Back (also known as Star Wars: Episode V – The Empire Strikes Back) is a 1980 American epic space opera film directed by Irvin Kershner. Leigh Brackett and Lawrence Kasdan wrote the screenplay, with George Lucas writing the film's story and serving as executive producer. The second installment in the original Star Wars trilogy, it was produced by Gary Kurtz for Lucasfilm Ltd. and stars Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, David Prowse, Kenny Baker, Peter Mayhew and Frank Oz.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg"
+          },
+          "media": [
+            {
+              "url": "http://www.wavlist.com/movies/004/father.wav"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Read More",
+              "value": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "a11108a0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "a1152750-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:46-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "a11108a0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "a11611b0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:46-05:00",
+    "timestamp": "2018-12-14T20:55:46.507Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "text": "a",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:55:54.319Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.24"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "a5be15f0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:54-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:55:54.330Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "locale": "",
+    "text": "What card would you like to see? You can click or type the card name",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "imBack",
+          "title": "Adaptive card",
+          "value": "Adaptive card"
+        },
+        {
+          "type": "imBack",
+          "title": "Animation card",
+          "value": "Animation card"
+        },
+        {
+          "type": "imBack",
+          "title": "Audio card",
+          "value": "Audio card"
+        },
+        {
+          "type": "imBack",
+          "title": "Hero card",
+          "value": "Hero card"
+        },
+        {
+          "type": "imBack",
+          "title": "Receipt card",
+          "value": "Receipt card"
+        },
+        {
+          "type": "imBack",
+          "title": "Signin card",
+          "value": "Signin card"
+        },
+        {
+          "type": "imBack",
+          "title": "Thumbnail card",
+          "value": "Thumbnail card"
+        },
+        {
+          "type": "imBack",
+          "title": "Video card",
+          "value": "Video card"
+        },
+        {
+          "type": "imBack",
+          "title": "All cards",
+          "value": "All cards"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "a5be15f0-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "a5bfc3a0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:55:54-05:00"
+  },
+  {
+    "type": "message",
+    "text": "All cards",
+    "from": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-14T20:56:07.415Z",
+    "channelData": {
+      "clientActivityId": "1544820546533.2338738543123764.26"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "id": "ad8c6070-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:56:07-05:00",
+    "recipient": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:53447"
+  },
+  {
+    "type": "message",
+    "timestamp": "2018-12-14T20:56:07.429Z",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "attachmentLayout": "carousel",
+    "locale": "",
+    "text": "",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {
+          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+          "version": "1.0",
+          "type": "AdaptiveCard",
+          "speak": "Your flight is confirmed for you and 3 other passengers from San Francisco to Amsterdam on Friday, October 10 8:30 AM",
+          "body": [
+            {
+              "type": "TextBlock",
+              "text": "Passengers",
+              "weight": "bolder",
+              "isSubtle": false
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sarah Hum",
+              "separator": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Jeremy Goldberg",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Evan Litvak",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "2 Stops",
+              "weight": "bolder",
+              "spacing": "medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, October 10 8:30 AM",
+              "weight": "bolder",
+              "spacing": "none"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": true,
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "San Francisco",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "SFO",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": " "
+                    },
+                    {
+                      "type": "Image",
+                      "url": "http://adaptivecards.io/content/airplane.png",
+                      "size": "small",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "Amsterdam",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "AMS",
+                      "spacing": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "text": "Non-Stop",
+              "weight": "bolder",
+              "spacing": "medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, October 18 9:50 PM",
+              "weight": "bolder",
+              "spacing": "none"
+            },
+            {
+              "type": "ColumnSet",
+              "separator": true,
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Amsterdam",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "AMS",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": " "
+                    },
+                    {
+                      "type": "Image",
+                      "url": "http://adaptivecards.io/content/airplane.png",
+                      "size": "small",
+                      "spacing": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "San Francisco",
+                      "isSubtle": true
+                    },
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "size": "extraLarge",
+                      "color": "accent",
+                      "text": "SFO",
+                      "spacing": "none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "spacing": "medium",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "1",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Total",
+                      "size": "medium",
+                      "isSubtle": true
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "horizontalAlignment": "right",
+                      "text": "$4,032.54",
+                      "size": "medium",
+                      "weight": "bolder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "BotFramework Hero Card",
+          "subtitle": "Microsoft Bot Framework",
+          "text": "Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Get Started",
+              "value": "https://docs.microsoft.com/bot-framework"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "BotFramework Thumbnail Card",
+          "subtitle": "Microsoft Bot Framework",
+          "text": "Build and connect intelligent bots to interact with your users naturally wherever they are, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Get Started",
+              "value": "https://docs.microsoft.com/bot-framework"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.receipt",
+        "content": {
+          "title": "John Doe",
+          "facts": [
+            {
+              "key": "Order Number",
+              "value": "1234"
+            },
+            {
+              "key": "Payment Method",
+              "value": "VISA 5555-****"
+            }
+          ],
+          "items": [
+            {
+              "title": "Data Transfer",
+              "image": {
+                "url": "https://github.com/amido/azure-vector-icons/raw/master/renders/traffic-manager.png"
+              },
+              "price": "$ 38.45",
+              "quantity": "368"
+            },
+            {
+              "title": "App Service",
+              "image": {
+                "url": "https://github.com/amido/azure-vector-icons/raw/master/renders/cloud-service.png"
+              },
+              "price": "$ 45.00",
+              "quantity": "720"
+            }
+          ],
+          "total": "$ 90.95",
+          "tax": "$ 7.50",
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "More information",
+              "image": "https://account.windowsazure.com/content/6.10.1.38-.8225.160809-1618/aux-pre/images/offer-icon-freetrial.png",
+              "text": "https://azure.microsoft.com/en-us/pricing/"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.signin",
+        "content": {
+          "text": "BotFramework Sign-in Card",
+          "buttons": [
+            {
+              "type": "signin",
+              "title": "Sign-in",
+              "value": "https://login.microsoftonline.com/"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.animation",
+        "content": {
+          "title": "Microsoft Bot Framework",
+          "subtitle": "Animation Card",
+          "image": {
+            "url": "https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png"
+          },
+          "media": [
+            {
+              "url": "http://i.giphy.com/Ki55RUbOV5njy.gif"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.video",
+        "content": {
+          "title": "Big Buck Bunny",
+          "subtitle": "by the Blender Institute",
+          "text": "Big Buck Bunny (code-named Peach) is a short computer-animated comedy film by the Blender Institute, part of the Blender Foundation. Like the foundation's previous film Elephants Dream, the film was made using Blender, a free software application for animation made by the same foundation. It was released as an open-source film under Creative Commons License Attribution 3.0.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/220px-Big_buck_bunny_poster_big.jpg"
+          },
+          "media": [
+            {
+              "url": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Learn More",
+              "value": "https://peach.blender.org/"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.audio",
+        "content": {
+          "title": "I am your father",
+          "subtitle": "Star Wars: Episode V - The Empire Strikes Back",
+          "text": "The Empire Strikes Back (also known as Star Wars: Episode V – The Empire Strikes Back) is a 1980 American epic space opera film directed by Irvin Kershner. Leigh Brackett and Lawrence Kasdan wrote the screenplay, with George Lucas writing the film's story and serving as executive producer. The second installment in the original Star Wars trilogy, it was produced by Gary Kurtz for Lucasfilm Ltd. and stars Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, David Prowse, Kenny Baker, Peter Mayhew and Frank Oz.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg"
+          },
+          "media": [
+            {
+              "url": "http://www.wavlist.com/movies/004/father.wav"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Read More",
+              "value": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "ad8c6070-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "ad8e8350-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:56:07-05:00"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:53447",
+    "channelId": "emulator",
+    "from": {
+      "id": "1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b2ac4940-ffe1-11e8-99c8-73817800e39f|livechat"
+    },
+    "recipient": {
+      "id": "71e064e2-4c9b-4b05-b191-3622d7d61a10",
+      "role": "user"
+    },
+    "text": "Type anything to see another card.",
+    "inputHint": "acceptingInput",
+    "replyToId": "ad8c6070-ffe2-11e8-8961-b37f07f9bce9",
+    "id": "ad8f46a0-ffe2-11e8-8961-b37f07f9bce9",
+    "localTimestamp": "2018-12-14T15:56:07-05:00",
+    "timestamp": "2018-12-14T20:56:07.434Z",
+    "locale": ""
+  }
+]
